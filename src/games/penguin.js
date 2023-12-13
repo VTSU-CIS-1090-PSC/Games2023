@@ -63,7 +63,7 @@ function frame(t, dt) {
     }
 }
 
-let name = "My Game";
+let name = "Hungry Penguin";
 
 let background = {
     'background-color': 'blue',

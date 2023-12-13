@@ -16,7 +16,7 @@ net.y = 80
 let ball = sprites[1];
 ball.image = "⚽"
 
-let name = "soccer";
+let name = "Soccer";
 
 
 const background = {

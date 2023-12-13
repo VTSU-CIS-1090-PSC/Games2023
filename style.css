@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: rgb(141, 197, 148);
 }
 
 *,
@@ -8,7 +10,7 @@ html {
   box-sizing: inherit;
 }
 
-#name {
+#name, h2 {
   text-align: center;
 }
 
@@ -19,6 +21,7 @@ html {
   position: absolute;
   right: 0;
   top: 0;
+  overflow: hidden;
 }
 
 #background {
@@ -104,4 +107,10 @@ html {
 .hi,
 .lo {
   font-weight: bold;
+}
+
+#games {
+  position: absolute;
+  transform: translate(-50%, 0);
+  left: 50%;
 }

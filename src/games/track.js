@@ -12,10 +12,14 @@ function frame(t, dt) {
 
     if (buttons.up)
         trackStar.y += playerSpeed * dt
-    if (buttons.right)
+    if (buttons.right){
         trackStar.x += playerSpeed * dt
-    if (buttons.left)
+        trackStar.flipH = true;
+    }
+    if (buttons.left){
         trackStar.x -= playerSpeed * dt
+        trackStar.flipH = false;
+    }
 }
 
 
@@ -23,9 +27,10 @@ let trackStar = sprites[0]
 trackStar.image = "🏃";
 trackStar.x = 100
 trackStar.y = 170
+trackStar.flipH = true;
 
 
-let name = "My Game";
+let name = "Track Star";
 
 let background = {
     'background': 'url("https://png.pngtree.com/thumb_back/fh260/background/20220215/pngtree-poster-of-track-and-field-race-in-campus-games-image_925132.jpg")',

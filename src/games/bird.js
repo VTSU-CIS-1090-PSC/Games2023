@@ -145,7 +145,7 @@ function birdMovement() {
 
 
 let score = 0;
-let name = "My Game";
+let name = "Bird Game";
 
 let background = {
 
