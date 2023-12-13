@@ -1,4 +1,4 @@
-const SPRITE_COUNT = 10;
+const SPRITE_COUNT = 30;
 
 let screen = document.querySelector('#screen');
 
