@@ -1,1 +1,0 @@
-import{s as t,t as r}from"./index-UWOARnK8.js";const o=80;let e=t[0];e.image="🧍‍♂️";e.x=100;e.y=o;function s(a,n){r.title="",r.score="Score: 0"}let b="Money Grabber",i={"background-color":"skyblue","background-image":"linear-gradient(#424299, skyblue)","border-bottom":"50px solid green"};export{i as background,s as frame,b as name};
